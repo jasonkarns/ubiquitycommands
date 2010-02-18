@@ -10,26 +10,31 @@
 	<style type="text/css">
 		body {
   		margin-top: 1.0em;
-  		background-color: #600fce;
-		  font-family: "Helvetica,Arial,FreeSans"; 
-  		color: #ffffff;
+  		background-color: #FFF;
+		  font-family: helvetica,arial,freesans,clean,sans-serif; 
+  		color: #000;
+      font-size:87.5%;
     }
     #container {
       margin: 0 auto;
       width: 700px;
     }
-		h1 { font-size: 3.8em; color: #9ff031; margin-bottom: 3px; }
+		h1 { font-size: 3em; margin-bottom: 3px; }
 		h1 .small { font-size: 0.4em; }
 		h1 a { text-decoration: none }
-		h2 { font-size: 1.5em; color: #9ff031; }
-    h3 { text-align: center; color: #9ff031; }
-    a { color: #9ff031; }
+		h2 { font-size: 1em; background:#EEE; border:1px solid #CCC; border-bottom:0; padding: .25em .5em; margin:1em 0 0; }
+    ol, p { background: #F8F8FF; margin:0 0 1em 0; padding:.5em 1em; border:1px solid #CCC; }
+    ol { list-style-position:inside; }
+    li { margin: .25em; }
+    a { color: #4183C4; }
     .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
     .download { float: right; }
-		pre { background: #000; color: #fff; padding: 15px;}
+		pre { background: #F8F8FF; border:1px solid #CCC; padding: 15px; font-family:"Courier New", Courier, monospace;}
     hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
     .footer { text-align:center; padding-top:30px; font-style: italic; }
 	</style>
+  
+  <link rel="commands" href="http://github.com/jasonkarns/ubiquity.claimid/raw/master/claimid.js" type="text/javascript" />
 	
 </head>
 
@@ -52,19 +57,24 @@
       A Ubiquity command for adding links to ClaimID
     </div>
 
-    <h2>Authors</h2>
-<p>Jason Karns (jason@karns.name)<br/><br/>      </p>
-<h2>Contact</h2>
-<p>Jason Karns (jason.karns@gmail.com)<br/>      </p>
-
-
-    <h2>Download</h2>
+    <h2>Requirements</h2>
+    <ol>
+      <li><a href="http://getfirefox.com">Firefox</a></li>
+      <li>The <a href="https://mozillalabs.com/ubiquity">Ubiquity</a> extension</li>
+      <li>A <a href="http://claimid.com">ClaimID</a> account</li>
+    </ol>
+    
+    <h2>Installation</h2>
+    <p>If you have Ubiquity installed and enabled, you should be given the option to install 
+    the ClaimID command via drop down at the top of this page.</p>
+    
+    <h2>Get the Source</h2>
     <p>
       You can download this project in either
       <a href="http://github.com/jasonkarns/ubiquity.claimid/zipball/master">zip</a> or
       <a href="http://github.com/jasonkarns/ubiquity.claimid/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+      <br/><br/>
+      You can also clone the project with <a href="http://git-scm.com">Git</a>
       by running:
       <pre>$ git clone git://github.com/jasonkarns/ubiquity.claimid</pre>
     </p>
