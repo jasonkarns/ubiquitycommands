@@ -22,11 +22,11 @@ CmdUtils.CreateCommand({
   },
   execute: function(args) {
     var href = context.focusedWindow.document.location;
-  var title = (args.alias && args.alias.text)? args.alias.text : context.focusedWindow.document.title;
+    var title = (args.alias && args.alias.text)? args.alias.text : context.focusedWindow.document.title;
     var url = 'http://claimid.com/post/?url='
-        + encodeURIComponent(href)
-        + '&title='
-        + encodeURIComponent(title);
-    Utils.openUrlInBrowser( url );
+      + encodeURIComponent(href)
+      + '&title='
+      + encodeURIComponent(title);
+    Utils.openUrlInBrowser(url);
   }
 });
