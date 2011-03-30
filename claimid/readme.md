@@ -13,7 +13,7 @@ Prerequisites
 Installation
 ------------
 
-Once you have everything installed, head over to [jasonkarns.github.com/ubiquity.claimid](http://jasonkarns.github.com/ubiquity.claimid). If you have Ubiquity installed, you should be presented with an installation drop-down dialog.
+Once you have everything installed, head over to [jasonkarns.github.com/ubiquitycommands/claimid](http://jasonkarns.github.com/ubiquitycommands/claimid). If you have Ubiquity installed, you should be presented with an installation drop-down dialog.
 
 Usage
 -----

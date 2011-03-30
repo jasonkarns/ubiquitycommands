@@ -13,7 +13,7 @@ Prerequisites
 Installation
 ------------
 
-Once you have everything installed, head over to [jasonkarns.github.com/ubiquity.wishlistr](http://jasonkarns.github.com/ubiquity.wishlistr). If you have Ubiquity installed, you should be presented with an installation drop-down dialog.
+Once you have everything installed, head over to [jasonkarns.github.com/ubiquitycommands/wishlistr](http://jasonkarns.github.com/ubiquitycommands/wishlistr). If you have Ubiquity installed, you should be presented with an installation drop-down dialog.
 
 Usage
 -----
