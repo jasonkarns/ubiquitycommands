@@ -2,7 +2,7 @@ CmdUtils.CreateCommand({
   name: ["claim", "claimid", "send to claimid", "add to claimid"],
   icon: "http://claimid.com/images/favicon.ico",
   homepage: "http://jason.karns.name/",
-  author: { name: "Jason Karns", email: "jason@karns.name"},
+  author: { name: "Jason Karns" },
   license: "GPL",
   description: "Post to ClaimID",
   help: "Highlight some text to be used as a title and ClaimID will do the rest!",

@@ -2,7 +2,7 @@ CmdUtils.CreateCommand({
   name: ["wishlist", "wishlistr", "add to wishlistr"],
   icon: "http://www.wishlistr.com/favicon.ico",
   homepage: "http://jason.karns.name/",
-  author: { name: "Jason Karns", email: "jason@karns.name"},
+  author: { name: "Jason Karns" },
   license: "GPL",
   description: "Add an item to your Wishlistr wishlist.",
   help: "Highlight some text to be used as a title and Wishlistr will do the rest!",
